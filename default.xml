@@ -831,6 +831,7 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- WeebProjekt -->
+  <include name="snippets/lineage.xml" />
   <include name="snippets/remove.xml" />
   <include name="snippets/weeb.xml" />
 
