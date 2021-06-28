@@ -37,4 +37,7 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
   </project>
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/tools-weeb" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
+
 </manifest>
