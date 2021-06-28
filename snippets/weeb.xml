@@ -5,4 +5,7 @@
            revision="reborn"
            fetch="https://github.com/WeebProjekt" />
 
+  <!-- Build -->
+  <project path="bionic" name="platform_bionic" remote="weeb" />
+
 </manifest>
