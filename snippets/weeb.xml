@@ -21,4 +21,8 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Framework -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="weeb" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="weeb" />
+
 </manifest>
