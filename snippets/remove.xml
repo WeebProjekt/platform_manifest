@@ -78,4 +78,7 @@
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />
 
+   <!-- System -->
+  <remove-project name="platform/system/core" />
+
 </manifest>

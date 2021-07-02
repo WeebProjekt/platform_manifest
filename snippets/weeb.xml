@@ -31,4 +31,7 @@
   <!-- Hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="weeb" />
 
+  <!-- System Repos -->
+  <project path="system/core" name="platform_system_core" remote="weeb" />
+
 </manifest>
