@@ -33,5 +33,6 @@
 
   <!-- System Repos -->
   <project path="system/core" name="platform_system_core" remote="weeb" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="weeb" />
 
 </manifest>
