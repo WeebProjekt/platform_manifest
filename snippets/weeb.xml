@@ -5,6 +5,10 @@
            revision="reborn"
            fetch="https://github.com/WeebProjekt" />
 
+  <!-- GitLab -->
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
   <!-- Build -->
   <project path="bionic" name="platform_bionic" remote="weeb" />
   <project path="build/make" name="platform_build" remote="weeb">
@@ -34,5 +38,9 @@
   <!-- System Repos -->
   <project path="system/core" name="platform_system_core" remote="weeb" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="weeb" />
+
+  <!-- Vendor -->
+  <project path="vendor/google/gms" name="StatiXOS/android_vendor_google_gms" revision="11" remote="gitlab" clone-depth="1" />
+  <project path="vendor/google/pixel" name="platform_vendor_google_pixel" remote="weeb" />
 
 </manifest>
