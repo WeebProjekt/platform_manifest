@@ -34,6 +34,9 @@
   <project path="frameworks/native" name="platform_frameworks_native" remote="weeb" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="weeb" />
 
+  <!-- General -->
+  <project path="vendor/weeb" name="platform_vendor_weeb" remote="weeb" />
+
   <!-- Hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="weeb" />
   
